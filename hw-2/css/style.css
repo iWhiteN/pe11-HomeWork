@@ -1,0 +1,127 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    margin-top: 61px;
+}
+.header-logo {
+    font-size: 80px;
+    text-decoration-line: none;
+    color: #4bcaff;
+    letter-spacing: 1px;;
+}
+.header-logo > span {
+    color: black;
+}
+
+/* Nav */
+.top-nav {
+    display: inline-block;
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+    background-color: #35444f;
+}
+.top-nav-link {
+    text-decoration: none;
+    padding-bottom: 5px;
+    margin: 0px 42px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 69px;
+}
+.top-nav-link:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+/* Main */
+.main {
+    width: 100%;
+    margin-top: 51px;
+    display: inline-block;
+}
+
+/* Menu */
+.main-menu {
+    width: 27%;
+    border: 1px solid #35444f;
+    display: inline-block;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+.main-menu-link {
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: #495863;
+    line-height: 81px;
+    padding-left: 42px;
+}
+.main-menu-link:hover {
+    background-color: #dbdbdb;
+    padding-left: 70px;
+    color: black;
+}
+
+/* Body */
+.main-body{
+    float: right;
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+}
+.main-body-img {
+    padding: 75px 0px;
+    text-align: center;
+    border: 1px solid #35444f;
+}
+.main-body-img>img {
+    transition: all 1s ease-out;
+}
+.main-body-img>img:hover {
+    transform: scale(1.1);
+}
+.main-body-text {
+    margin: 50px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+    margin-bottom: 30px;
+    padding: 22px 44px;
+    background-color: #b4b7ba;
+}
+.footer-about {
+    display: inline-block;
+    margin-right: 210px;
+}
+.footer-about-link {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+.footer-about-link:hover {
+    border-bottom: 1px solid #3181a6;
+    color: #3181a6;
+}
+.footer-copyright {
+    display: inline-block;
+    font-size: 24px;
+}
+
+
+
+
+
+/* Other */
+.mgb30 {
+    margin-bottom: 30px;
+}
