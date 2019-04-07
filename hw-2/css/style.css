@@ -1,4 +1,5 @@
-body {
+/* Center */
+.container {
     width: 1280px;
     margin: 0 auto;
 }
@@ -19,7 +20,6 @@ body {
 
 /* Nav */
 .top-nav {
-    display: inline-block;
     width: 100%;
     margin-top: 45px;
     text-align: center;
@@ -27,14 +27,16 @@ body {
 }
 .top-nav-link {
     text-decoration: none;
-    padding-bottom: 5px;
-    margin: 0px 42px;
+    display: inline-block;
+    padding: 0px 42px;
     color: #ffffff;
     font-size: 24px;
     line-height: 69px;
 }
 .top-nav-link:hover {
-    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    background-color: #222f3a;
 }
 
 
@@ -42,7 +44,6 @@ body {
 .main {
     width: 100%;
     margin-top: 51px;
-    display: inline-block;
 }
 
 /* Menu */
@@ -50,8 +51,6 @@ body {
     width: 27%;
     border: 1px solid #35444f;
     display: inline-block;
-    margin-top: 0px;
-    padding-left: 0px;
 }
 .main-menu-link {
     display: block;
@@ -69,10 +68,10 @@ body {
 
 /* Body */
 .main-body{
-    float: right;
     display: inline-block;
     width: 68%;
     vertical-align: top;
+    margin-left: 52px;
 }
 .main-body-img {
     padding: 75px 0px;
