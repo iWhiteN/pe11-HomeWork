@@ -79,8 +79,7 @@ body {
     position: relative;
     margin-bottom: 20px;
     border: 2px solid transparent;
-    border-image: linear-gradient(to bottom, #fefefe 0%, transparent 100%);
-    border-image-slice: 1;
+    border-image: 1 linear-gradient(to bottom, #fefefe 0%, transparent 100%);
 }
 .tours__item__theme {
     font-size: 18px;
@@ -88,13 +87,13 @@ body {
     letter-spacing: 1px;
     text-align: center;
 }
-.tours__item__img:hover .details {
+.tours__item:hover .details {
     opacity: 1;
+    bottom: 3px;
     transition: 0.4s;
 }
-.tours__item__img:hover .tours__item__theme {
+.tours__item:hover .tours__item__theme {
     color: #f26522;
-    opacity: 1;
     transition: 0.4s;
 }
 
@@ -102,9 +101,10 @@ body {
 /* Details */
 .details {
     position: absolute;
-    bottom: 3px;
+    bottom: -25px;
+    left: -2px;
     height: 63px;
-    width: 100%;
+    width: 102%;
     background-color: #f26522;
     padding: 16px 18px 17px 21px;
     box-sizing: border-box;
