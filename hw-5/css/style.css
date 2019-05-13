@@ -1,0 +1,178 @@
+.container {
+    padding: 25px;
+    background-color: #3a4965;
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+/* Default Table*/
+.pricing_plan {
+    border-collapse: collapse;
+    background-color: #fafafa;
+}
+.pricing_plan td {
+    box-shadow:  2px 0 2px rgba(0,0,0,0.1);
+}
+
+
+/* Head Table */
+.head_pricing_plan {
+    color: #484848;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    width: 310px;
+}
+.head_choose {
+    font-size: 18px;
+}
+.head_plan{
+    font-size: 30px;
+}
+.head_tab{
+    width: 277px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: 1px transparent;
+    box-sizing: border-box;
+}
+.head_tab:nth-child(3) {
+    font-size: 30px;
+}
+.head_price {
+    height: 86px;
+    color: #484848;
+}
+.head_price_bigger {
+    float: left;
+    width: 48%;
+    text-align: right;
+    font-size: 60px;
+    font-weight: 700;
+}
+.head_price_small {
+    float: right;
+    width: 50%;
+    text-align: left;
+    margin-top: 10px;
+}
+.cent {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.perid {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+
+/* Body Table */
+.body_pricing_plan {
+    background-color: #f2f2f2;
+}
+.body_pricing_plan td {
+    width: 310px;
+    height: 69px;
+    text-align: center;
+    color: #484848;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.body_pricing_plan tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+.pricing_icon {
+    margin-right: 12px;
+    color: #848484;
+    font-size: 22px;
+}
+.pricing_name {
+    display: inline-block;
+}
+
+
+
+/* Foot Table */
+.foot_pricing_plan {
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow: 2px 0 2px rgba(0,0,0,0.1);
+}
+.foot_pricing_plan tr {
+    height: 110px;
+}
+.btn_tab {
+    width: 192px;
+    height: 49px;
+    display: inline-block;
+    background-color: #89c331;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 49px;
+    box-shadow: inset 0 -9px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+.btn_tab.color_plan:hover {
+    border: 1px solid #484848;
+    color: #484848;
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn_tab.color_standart:hover {
+    border: 1px solid #89c331;
+    color: #89c331;
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn_tab.color_ultimate:hover {
+    border: 1px solid #f04a56;
+    color: #f04a56;
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn_tab.color_premium:hover {
+    border: 1px solid #20807c;
+    color: #20807c;
+    background-color: transparent;
+    box-shadow: none;
+}
+.foot_pricing_plan td:first-of-type {
+    background-color: #dddddd;
+}
+
+
+
+/* Color Section */
+.color_standart {
+    background-color: #89c331;
+}
+.color_ultimate {
+    background-color: #f04a56;
+}
+.color_premium {
+    background-color: #20807c;
+}
+.color_plan {
+    background-color: #484848;
+}
+
+
+
+/* ClearFix */
+.clearfix::after {
+    content: '';
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}

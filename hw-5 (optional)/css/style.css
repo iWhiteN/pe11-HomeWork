@@ -1,0 +1,125 @@
+.container {
+    padding: 30px;
+    background-color: #3a4965;
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;
+}
+
+
+/* Default Table */
+.pricing_plan {
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+}
+.pricing_plan td {
+    box-shadow:  inset 0px -2px 2px rgba(0,0,0,0.1);
+}
+.pricing_plan td:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+
+/* Products Head */
+.products_head td{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #484848;
+    font-weight: 700;
+    padding: 30px;
+    text-align: center;
+}
+.products_head td:first-child {
+    background-color: #fafafa;
+    padding: 38px 28px;
+}
+.products_head_subtitle {
+    font-size: 14px;
+}
+.products_head_title {
+    font-size: 20px;
+}
+.products_head_icon {
+    color: #848484;
+    margin-bottom: 10px;
+}
+.products_head_name {
+    margin: 0;
+}
+
+
+/* Products Body */
+.products {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #484848;
+    text-align: center;
+}
+.products td:first-child {
+    padding: 19px 23px;
+}
+.products_value {
+    margin-bottom: 10px;
+}
+.plan_name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fafafa;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.plan_price {
+    color: #fafafa;
+    margin-bottom: 24px;
+}
+.plan_price_dollar {
+    font-size: 36px;
+    font-weight: 700;
+    display: inline-block;
+}
+.plan_price_cent {
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 0;
+    vertical-align: top;
+    position: relative;
+    top: 4px;
+}
+.plan_price_period {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.plan_btn {
+    padding: 15px 35px;
+    background-color: #414141;
+    display: inline-block;
+    color: #fafafa;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: inset 0 -9px rgba(0,0,0,0.2);
+    border: 1px solid transparent;
+    transition: 0.2s;
+}
+.plan_btn:hover {
+    border: 1px solid #fafafa;
+    color: #414141;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+/* Color Section */
+.color_standart {
+    background-color: #89c331;
+}
+.color_ultimate {
+    background-color: #f04a56;
+}
+.color_premium {
+    background-color: #20807c;
+}
+.color_plan {
+    background-color: #484848;
+}
