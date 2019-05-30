@@ -118,7 +118,6 @@
     max-height: 824px;
 }
 .cards {
-    cursor: pointer;
     margin-right: 23px;
     margin-bottom: 23px;
     transition: 0.1s;
@@ -195,9 +194,11 @@
 }
 .top-rated_list {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(271.84px, 1fr));
 }
-
+.top-rated_list a img {
+    width: 100%;
+}
 
 /* Hot news */
 .hot-news {
