@@ -1,0 +1,43 @@
+body {
+    background-color: #111110;
+    overflow: hidden;
+}
+.animation {
+    color: #FBCF00;
+    position: absolute;
+    width: 50%;
+    margin: 0 25%;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: justify;
+    height: 100%;
+    transform: perspective(300px) rotateX(30deg);
+}
+.container {
+    position: absolute;
+    animation: star-wars 60s linear infinite;
+}
+.container div:nth-child(1),
+.container div:nth-child(2) {
+    text-align: center;
+}
+.container div {
+    margin-bottom: 30px;
+}
+
+@keyframes star-wars {
+	0% {
+		top: 79%;
+		opacity: 0;
+	}
+	5% {
+		opacity: 1;
+	}
+	95% {
+		opacity: 1;
+	}
+	100% {
+		top: -200%;
+		opacity: 0;
+	}
+}
