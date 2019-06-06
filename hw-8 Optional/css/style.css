@@ -1,0 +1,220 @@
+/* DEFAULT */
+.center {
+    width: 975px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-title {
+    font-family: Roboto, OpenSans-Semibold, MyriadHebrew-Regular;
+    font-size: 60px;
+    color: #14AFCA;
+    font-weight: 700;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.section-subtitle {
+    font-family: Roboto, MyriadHebrew-Regular, open-sans;
+    font-size: 16px;
+    font-weight: 700;
+    color: #424F57;
+    padding-bottom: 35px;
+    letter-spacing: 1px;
+}
+.white {
+    color: white;
+}
+
+
+
+/* HEADER */
+.header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('../img/bg1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 16px;
+    clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+.header section {
+    background-color: #fff;
+    padding: 20px 0;
+}
+.header_top {
+    display: flex;
+    justify-content: space-between;
+}
+.header_top_logo {
+    font-family: Roboto, Courie, sans-serif;
+    font-size: 36px;
+    color: #424F57;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+}
+.header_top_logo:hover{
+    border-bottom: 2px solid #14AFCA;
+}
+.header_top_logo span {
+    color: #14AFCA;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header_top_nav {
+    flex-basis: 50%;
+}
+.header_top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_top_nav a {
+    font-family: OpenSans-Bold, MyriadHebrew-Regular;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3E4C4E;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.header_top_nav a:hover {
+    color: #14AFCA;
+}
+.header_theme {
+    padding: 130px 0;
+}
+.header_theme p{
+    font-family: FuturaBT-Bold, MyriadHebrew-Regular;
+    font-size: 51px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 12px;
+}
+.header_theme p:first-child {
+    margin-bottom: 10px;
+}
+
+
+
+/* WHAT */
+.what p {
+    font-family: Roboto, MyriadHebrew-Regular, open-sans;
+    font-size: 16px;
+    color: #424F57;
+    line-height: 1.5;
+    padding-bottom: 75px;
+}
+
+
+
+/* COMPANIES */
+.companies {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('../img/bg2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 16px;
+    clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+    padding-bottom: 135px;
+}
+.companies-list {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -100px;
+    margin-right: -50px;
+}
+.companies-list a {
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.companies-list a img {
+    filter: invert(78%) sepia(36%) saturate(0%) hue-rotate(37deg) brightness(97%) contrast(92%);
+}
+.companies-list a img:hover {
+    filter: none
+}
+.companies-list a img[alt="ADOBE"] {
+    filter: none
+}
+
+
+
+/* MEET US */
+.meet-us {
+    padding-bottom: 95px;
+}
+.meet-us_list {
+    display: flex;
+    justify-content: space-between;
+}
+.meet-us_list div {
+    flex-basis: 280px;
+}
+.meet-us_list img {
+    margin-bottom: 15px;
+}
+.meet-us_list p {
+    font-family: Roboto, MyriadHebrew-Regular;
+    width: 100%;
+    font-size: 15px;
+    color: #424F57;
+    line-height: 1.5;
+}
+
+
+
+/* TESTIMONIALS */
+.testimonials {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('../img/bg2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    clip-path: polygon(50% 15%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+    padding-bottom: 125px;
+}
+.testimonials_quote {
+    font-family: OpenSans-Italic, MyriadPro-Regular, MyriadHebrew-Regular;
+    font-size: 16px;
+    color: #D3CCCC;
+    line-height: 1.5;
+    padding: 0 100px;
+    font-style: italic;
+}
+.testimonials_sign {
+    font-family: OpenSans-SemiboldItalic, MyriadPro-Regular, MyriadHebrew-Regular;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: 15px;
+    padding-right: 200px;
+    font-style: italic;
+}
+
+
+
+/* WHY */
+.why {
+    padding-bottom: 85px;
+}
+.why_info {
+    margin-top: 30px;
+    font-family: Roboto, Courier;
+    font-size: 30px;
+    color: #424F57;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+
+/* FOOTER */
+.footer {
+    margin-bottom: 50px;
+    font-family: OpenSans-Bold, OpenSans, MyriadHebrew-Regular;
+    font-size: 14px;
+    color: #3D3C3C;
+    line-height: 1.5;
+}
+.footer_design span {
+    font-weight: 700;
+}
